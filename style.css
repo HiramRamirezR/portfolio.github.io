@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.red-led {
+  background-color: #212121;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #999;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.yellow-led {
+  background-color: #212121;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #999;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
+}
+
+.green-led {
+  background-color: #212121;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #999;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.red {
+  background-color: #212121;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.blue {
+  background-color: #212121;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.main {
+  width: 400px;
+  height: 600px;
+  background-color: #D32F2F;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.tapa {
+  width: 400px;
+  height: 600px;
+  background-color: #aa1e1e;
+  border-radius: 10px;
+  z-index: 1;
+  position: absolute;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+
+.tapa img {
+  width: 50%;
+}
+
+.tapa h1 {
+  color: white;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
+}
+
+.header {
+  padding: 25px;
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tapa-cristal {
+  width: 60px;
+  height: 60px;
+  background-color: #aa1e1e;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border: 5px solid #ccc;
+}
+
+.cristal {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #9bd2ff;
+  -webkit-box-shadow: inset -5px -5px 7px #84b3d9, inset 5px 5px 7px #b2f2ff;
+          box-shadow: inset -5px -5px 7px #84b3d9, inset 5px 5px 7px #b2f2ff;
+}
+
+.cristal2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #0077d9;
+  -webkit-box-shadow: inset -11px -11px 22px #0065b8, inset 11px 11px 22px #0089fa;
+          box-shadow: inset -11px -11px 22px #0065b8, inset 11px 11px 22px #0089fa;
+  margin: 10px auto;
+}
+
+.cristal3 {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.semaforo {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cilindro {
+  background-color: #961010;
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  border-radius: 10px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  margin-left: 360px;
+}
+
+.cilindro2 {
+  margin-top: 320px;
+}
+
+.center {
+  width: 300px;
+  height: 300px;
+  background-color: #ccc;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 10%;
+  margin: 0 auto;
+  position: relative;
+  top: 8px;
+}
+
+.display {
+  background-color: #212121;
+  width: 80%;
+  height: 80%;
+  margin: 5% auto;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1em;
+  border: 2px solid #376868;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  text-align: center;
+}
+
+.display p {
+  color: #212121;
+}
+
+.display img {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+h3 {
+  color: black;
+  font-size: 1em;
+  text-align: center;
+}
+
+.battery {
+  width: 20px;
+  height: 20px;
+  border: 10px solid #ccc;
+  position: relative;
+  bottom: 10px;
+}
+
+@-webkit-keyframes ledBlink {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+@keyframes ledBlink {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+.hamburger {
+  width: 10%;
+  position: relative;
+  left: 238px;
+  bottom: 50px;
+}
+
+.slice {
+  background-color: #212121;
+  width: 100%;
+  height: 4px;
+  margin: 2px;
+  border-radius: 7px;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 80%;
+  height: 100px;
+}
+
+.torreta {
+  margin: 0 20px;
+  width: 40%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.torretita {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+  border: 2px solid #999;
+}
+
+.buttons {
+  width: 90%;
+  height: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #212121;
+  -webkit-box-shadow: inset -5px -5px 15px #0f0f0f, inset 5px 5px 15px #333333;
+          box-shadow: inset -5px -5px 15px #0f0f0f, inset 5px 5px 15px #333333;
+  cursor: pointer;
+}
+
+.search {
+  background-color: #81C784;
+  width: 50%;
+  height: 80%;
+  font-size: 1.5em;
+}
+
+.flechas {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.arriba {
+  background-color: #212121;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 30px;
+  border-radius: 7px;
+  background: #212121;
+  -webkit-box-shadow: inset -5px -5px 15px #0f0f0f, inset 5px 5px 15px #333333;
+          box-shadow: inset -5px -5px 15px #0f0f0f, inset 5px 5px 15px #333333;
+  -webkit-clip-path: polygon(50% 50%, 0 100%, 100% 100%);
+          clip-path: polygon(50% 50%, 0 100%, 100% 100%);
+}
+
+.abajo {
+  background-color: #212121;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 28px;
+  border-radius: 7px;
+  background: #212121;
+  -webkit-box-shadow: inset -5px -5px 15px #0f0f0f, inset 5px 5px 15px #333333;
+          box-shadow: inset -5px -5px 15px #0f0f0f, inset 5px 5px 15px #333333;
+  -webkit-clip-path: polygon(50% 50%, 0 0, 100% 0);
+          clip-path: polygon(50% 50%, 0 0, 100% 0);
+}
+
+/* ====== HOVERS ====== */
+.main:hover .display {
+  background-color: #b8e7ff;
+}
+
+.main:hover .red-led {
+  background-color: red;
+}
+
+.main:hover .yellow-led {
+  background-color: yellow;
+}
+
+.main:hover .green-led {
+  background-color: green;
+}
+
+.main:hover .red {
+  background-color: red;
+}
+
+.main:hover .blue {
+  background-color: blue;
+}
+
+.main:hover .tapa-cristal {
+  -webkit-transform: translate(60px);
+          transform: translate(60px);
+}
+
+.main:hover .cilindro {
+  -webkit-transform: translate(25px);
+          transform: translate(25px);
+}
+
+.main:hover .battery {
+  -webkit-animation: ledBlink 2s;
+          animation: ledBlink 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.main:hover .tapa {
+  -webkit-transform: translate(400px) rotate3d(0, 1, 0, 180deg);
+          transform: translate(400px) rotate3d(0, 1, 0, 180deg);
+}
+
+.main:hover .tapa h1 {
+  -webkit-transform: rotate3d(0, 1, 0, 180deg);
+          transform: rotate3d(0, 1, 0, 180deg);
+}
+/*# sourceMappingURL=style.css.map */
